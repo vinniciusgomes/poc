@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #eee;
+  height: calc(44px - 16px);
+  padding: 16px;
+}
+
+.container input {
+  border: 0;
+  outline: none;
+  width: 100%;
+}
+
+.badge {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #eee;
+  color: #333;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  font-family: "Roboto";
+  font-size: 12px;
+}
+
+.badge button {
+  border: 0;
+  outline: none;
+  background: none;
+  color: #333;
+  cursor: pointer;
+  margin-left: 7px;
+}
+
+.math {
+  background: #f3e4fb;
+  color: #b11fff;
+}
